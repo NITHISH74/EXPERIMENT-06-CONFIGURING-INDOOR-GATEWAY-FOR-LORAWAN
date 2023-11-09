@@ -54,14 +54,28 @@ You can use a PC to connect to this WiFi network. The PC will get an IP address 
 
 5. Configuring Network Connection to Gateway
 You can use any of the methods mentioned above to connect the Gateway to WiFi Network. The LPS8 is configured as a WiFi Access Point by factory default. So I followed the first method to connect to the network.
+
+
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-06-CONFIGURING-INDOOR-GATEWAY-FOR-LORAWAN/assets/36288975/73e7b188-4478-478f-9c96-5aaabc88918f)
+
+
+
 The Gateway will generate WiFi access point called dragino-xxxxxx with password: dragino+dragino. Connect to that Access point by entering the password.
+
+
 6.After successful connection, open any of the Web Browser. Then browse to the following IP: 10.130.1.1. A web page like the below will appear.
+
+
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-06-CONFIGURING-INDOOR-GATEWAY-FOR-LORAWAN/assets/36288975/0513f424-9e5d-41a0-b1bf-07f85a36393f)
+
+
 Enter the User Name: root & Password: dragino. Then hit enter. A webpage like below will appear.
+
+
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-06-CONFIGURING-INDOOR-GATEWAY-FOR-LORAWAN/assets/36288975/b84b5756-379d-4034-9ef2-957b64b35d33)
 
 7.The login page will show internet connectivity status. If it is connected to the internet, it is wifi or ethernet. The webpage will also show the status of LoRaWAN connection, the LoRa connection, and the Access point connection.At this moment the Dragino LPS8 LoRaWAN Indoor Gateway doesn’t have an internet connection. So, first, we need to configure the LPS8 as a WiFi client by providing the Wifi credentials.
+
 8.Go to the network, then click on WiFi.
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-06-CONFIGURING-INDOOR-GATEWAY-FOR-LORAWAN/assets/36288975/df00a8ee-874d-4f65-a0a0-5b549cba7976)
 9.The following Webpage will appear.
